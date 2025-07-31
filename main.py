@@ -172,10 +172,10 @@ while True:
                         for nauczyciel in nauczyciele:
                             if uczen.klasa in nauczyciel.klasy:
                                 print(f"{nauczyciel.przedmiot}, prowadzony przez {nauczyciel.imie_i_nazwisko}")
-                                linia_oddzielająca()
+
                 if czy_jest_taki == False:
                     print("Nie ma takieo ucznia w naszej bazie.")
-                    linia_oddzielająca()
+                linia_oddzielająca()
 
 
             elif akcja2 == "NAUCZYCIEL":
