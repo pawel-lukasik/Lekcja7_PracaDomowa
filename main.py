@@ -110,19 +110,6 @@ while True:
         print("Koniec programu.")
         break
 
-    elif akcja == "LISTA":
-        print("Uczniowie:")
-        for uczen in uczniowie:
-            print(uczen)
-
-        print("Nauczyciele:")
-        for nauczyciel in nauczyciele:
-            print(nauczyciel)
-
-        print("Wychowawcy:")
-        for wychowawca in wychowawcy:
-            print(wychowawca)
-
     elif akcja == "UTWÓRZ":
         linia_oddzielająca()
         while True:
